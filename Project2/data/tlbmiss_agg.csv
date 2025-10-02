@@ -1,0 +1,7 @@
+mode,stride_kib,avg_ns,dtlb_loads,dtlb_load_misses,miss_rate
+base,4,85.604321,,,
+base,64,60.397675,,,
+base,1024,75.251648,,,
+thp,4,46.372504,,,
+thp,64,73.271767,,,
+thp,1024,49.3479,,,

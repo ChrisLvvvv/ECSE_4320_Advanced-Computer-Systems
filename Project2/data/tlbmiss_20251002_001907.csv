@@ -1,0 +1,7 @@
+mode,total_mib,stride_kib,accesses,avg_ns,dtlb_loads,dtlb_load_misses,miss_rate
+base,2048,4,524288,85.604321,,,
+base,2048,64,32768,60.397675,,,
+base,2048,1024,2048,75.251648,,,
+thp,2048,4,524288,46.372504,,,
+thp,2048,64,32768,73.271767,,,
+thp,2048,1024,2048,49.347900,,,
