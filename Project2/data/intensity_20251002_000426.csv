@@ -1,0 +1,21 @@
+load_threads,buf_mib,probe_kib,repeat,sec,inj_bw_MBps,probe_avg_ns
+# load_threads,buf_mib,probe_kib,repeat,sec,inj_bw_MBps,probe_avg_ns
+0,512,64,1,3,0.00,0.000043
+0,512,64,2,3,0.00,0.000036
+0,512,64,3,3,0.00,0.000038
+# load_threads,buf_mib,probe_kib,repeat,sec,inj_bw_MBps,probe_avg_ns
+1,512,64,1,3,20484280.30,0.000034
+1,512,64,2,3,20687718.66,0.000035
+1,512,64,3,3,19029723.67,0.000036
+# load_threads,buf_mib,probe_kib,repeat,sec,inj_bw_MBps,probe_avg_ns
+2,512,64,1,3,30443700.95,0.000033
+2,512,64,2,3,31204998.89,0.000033
+2,512,64,3,3,30155874.94,0.000033
+# load_threads,buf_mib,probe_kib,repeat,sec,inj_bw_MBps,probe_avg_ns
+4,512,64,1,3,49399628.57,0.000033
+4,512,64,2,3,51743077.67,0.000031
+4,512,64,3,3,48024129.88,0.000033
+# load_threads,buf_mib,probe_kib,repeat,sec,inj_bw_MBps,probe_avg_ns
+8,512,64,1,3,73619939.24,0.000038
+8,512,64,2,3,64093735.59,0.000041
+8,512,64,3,3,75140249.94,0.000042
