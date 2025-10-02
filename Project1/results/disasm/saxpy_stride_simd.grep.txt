@@ -1,0 +1,18 @@
+773:    2c30:	c4 c1 7c 10 04 04    	vmovups ymm0,YMMWORD PTR [r12+rax*1]
+774:    2c36:	c4 c2 75 a8 04 07    	vfmadd213ps ymm0,ymm1,YMMWORD PTR [r15+rax*1]
+775:    2c3c:	c4 c1 7c 11 04 07    	vmovups YMMWORD PTR [r15+rax*1],ymm0
+791:    2c80:	c5 f8 10 30          	vmovups xmm6,XMMWORD PTR [rax]
+792:    2c84:	c4 c2 49 98 04 8c    	vfmadd132ps xmm0,xmm6,XMMWORD PTR [r12+rcx*4]
+793:    2c8a:	c5 f8 11 00          	vmovups XMMWORD PTR [rax],xmm0
+861:    2db8:	c4 c1 7c 10 04 04    	vmovups ymm0,YMMWORD PTR [r12+rax*1]
+862:    2dbe:	c4 c2 75 a8 44 05 00 	vfmadd213ps ymm0,ymm1,YMMWORD PTR [r13+rax*1+0x0]
+863:    2dc5:	c4 c1 7c 11 44 05 00 	vmovups YMMWORD PTR [r13+rax*1+0x0],ymm0
+880:    2e0b:	c5 f8 10 21          	vmovups xmm4,XMMWORD PTR [rcx]
+881:    2e0f:	c4 c2 59 98 04 84    	vfmadd132ps xmm0,xmm4,XMMWORD PTR [r12+rax*4]
+882:    2e15:	c5 f8 11 01          	vmovups XMMWORD PTR [rcx],xmm0
+1127:    31d0:	c5 fc 10 0c 07       	vmovups ymm1,YMMWORD PTR [rdi+rax*1]
+1128:    31d5:	c4 e2 6d a8 0c 06    	vfmadd213ps ymm1,ymm2,YMMWORD PTR [rsi+rax*1]
+1129:    31db:	c5 fc 11 0c 06       	vmovups YMMWORD PTR [rsi+rax*1],ymm1
+1146:    3218:	c4 c1 78 10 18       	vmovups xmm3,XMMWORD PTR [r8]
+1147:    321d:	c4 e2 61 98 0c 87    	vfmadd132ps xmm1,xmm3,XMMWORD PTR [rdi+rax*4]
+1148:    3223:	c4 c1 78 11 08       	vmovups XMMWORD PTR [r8],xmm1

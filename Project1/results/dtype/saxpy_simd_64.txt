@@ -1,0 +1,1 @@
+Kernel=SAXPY_DType DType=float64 N=10000000 Reps=5 AvgTime(ms)=11.1897

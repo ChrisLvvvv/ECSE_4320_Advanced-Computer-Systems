@@ -1,0 +1,1 @@
+Kernel=SAXPY N=100000 Reps=5 AvgTime(ms)=0.0155636

@@ -1,0 +1,1 @@
+Kernel=SAXPY_Align Mode=1 N=9999999 Reps=5 AvgTime(ms)=5.18361

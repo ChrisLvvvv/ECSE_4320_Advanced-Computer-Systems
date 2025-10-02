@@ -1,0 +1,1 @@
+Kernel=SAXPY_Stride Stride=4 N=10000000 Reps=5 AvgTime(ms)=7.66205

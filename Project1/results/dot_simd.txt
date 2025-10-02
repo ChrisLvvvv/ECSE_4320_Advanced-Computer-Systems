@@ -1,0 +1,1 @@
+Kernel=DotProduct N=10000000 Reps=5 AvgTime(ms)=5.07833 Result=2.49962e+06

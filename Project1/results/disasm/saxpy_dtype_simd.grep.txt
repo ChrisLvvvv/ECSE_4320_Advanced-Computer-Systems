@@ -1,0 +1,24 @@
+1123:    3060:	c5 fd 10 04 03       	vmovupd ymm0,YMMWORD PTR [rbx+rax*1]
+1124:    3065:	c4 c2 f5 a8 44 05 00 	vfmadd213pd ymm0,ymm1,YMMWORD PTR [r13+rax*1+0x0]
+1125:    306c:	c4 c1 7d 11 44 05 00 	vmovupd YMMWORD PTR [r13+rax*1+0x0],ymm0
+1142:    30ac:	c5 f9 10 31          	vmovupd xmm6,XMMWORD PTR [rcx]
+1143:    30b0:	c4 e2 c9 98 04 c3    	vfmadd132pd xmm0,xmm6,XMMWORD PTR [rbx+rax*8]
+1144:    30b6:	c5 f9 11 01          	vmovupd XMMWORD PTR [rcx],xmm0
+1205:    31d0:	c5 fd 10 04 03       	vmovupd ymm0,YMMWORD PTR [rbx+rax*1]
+1206:    31d5:	c4 c2 f5 a8 04 06    	vfmadd213pd ymm0,ymm1,YMMWORD PTR [r14+rax*1]
+1207:    31db:	c4 c1 7d 11 04 06    	vmovupd YMMWORD PTR [r14+rax*1],ymm0
+1223:    3219:	c5 f9 10 2e          	vmovupd xmm5,XMMWORD PTR [rsi]
+1224:    321d:	c4 e2 d1 98 04 c3    	vfmadd132pd xmm0,xmm5,XMMWORD PTR [rbx+rax*8]
+1225:    3223:	c5 f9 11 06          	vmovupd XMMWORD PTR [rsi],xmm0
+1779:    3b78:	c5 fc 10 04 03       	vmovups ymm0,YMMWORD PTR [rbx+rax*1]
+1780:    3b7d:	c4 c2 75 a8 44 05 00 	vfmadd213ps ymm0,ymm1,YMMWORD PTR [r13+rax*1+0x0]
+1781:    3b84:	c4 c1 7c 11 44 05 00 	vmovups YMMWORD PTR [r13+rax*1+0x0],ymm0
+1798:    3bc6:	c5 f8 10 29          	vmovups xmm5,XMMWORD PTR [rcx]
+1799:    3bca:	c4 e2 51 98 04 83    	vfmadd132ps xmm0,xmm5,XMMWORD PTR [rbx+rax*4]
+1800:    3bd0:	c5 f8 11 01          	vmovups XMMWORD PTR [rcx],xmm0
+1878:    3d30:	c5 fc 10 04 03       	vmovups ymm0,YMMWORD PTR [rbx+rax*1]
+1879:    3d35:	c4 c2 75 a8 04 06    	vfmadd213ps ymm0,ymm1,YMMWORD PTR [r14+rax*1]
+1880:    3d3b:	c4 c1 7c 11 04 06    	vmovups YMMWORD PTR [r14+rax*1],ymm0
+1897:    3d7e:	c5 f8 10 11          	vmovups xmm2,XMMWORD PTR [rcx]
+1898:    3d82:	c4 e2 69 98 04 83    	vfmadd132ps xmm0,xmm2,XMMWORD PTR [rbx+rax*4]
+1899:    3d88:	c5 f8 11 01          	vmovups XMMWORD PTR [rcx],xmm0

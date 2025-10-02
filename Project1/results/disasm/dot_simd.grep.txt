@@ -1,0 +1,40 @@
+516:    2790:	c4 c1 7c 10 7c 05 00 	vmovups ymm7,YMMWORD PTR [r13+rax*1+0x0]
+517:    2797:	c4 c1 44 59 0c 07    	vmulps ymm1,ymm7,YMMWORD PTR [r15+rax*1]
+520:    27a4:	c5 fc 58 c1          	vaddps ymm0,ymm0,ymm1
+524:    27b3:	c5 e0 58 c8          	vaddps xmm1,xmm3,xmm0
+526:    27bb:	c5 f8 58 c3          	vaddps xmm0,xmm0,xmm3
+528:    27c2:	c5 f0 12 d1          	vmovhlps xmm2,xmm1,xmm1
+529:    27c6:	c5 e8 58 d1          	vaddps xmm2,xmm2,xmm1
+531:    27cf:	c5 f0 58 ca          	vaddps xmm1,xmm1,xmm2
+539:    27ec:	c4 c1 78 10 34 87    	vmovups xmm6,XMMWORD PTR [r15+rax*4]
+540:    27f2:	c4 c2 49 b8 44 85 00 	vfmadd231ps xmm0,xmm6,XMMWORD PTR [r13+rax*4+0x0]
+545:    2806:	c5 f8 12 c8          	vmovhlps xmm1,xmm0,xmm0
+546:    280a:	c5 f0 58 c0          	vaddps xmm0,xmm1,xmm0
+548:    2813:	c5 f0 58 c8          	vaddps xmm1,xmm1,xmm0
+596:    28e8:	c4 c1 7c 10 24 07    	vmovups ymm4,YMMWORD PTR [r15+rax*1]
+597:    28ee:	c4 c1 5c 59 04 06    	vmulps ymm0,ymm4,YMMWORD PTR [r14+rax*1]
+600:    28fb:	c5 f4 58 c8          	vaddps ymm1,ymm1,ymm0
+605:    290f:	c5 f8 58 d9          	vaddps xmm3,xmm0,xmm1
+606:    2913:	c5 f8 58 c1          	vaddps xmm0,xmm0,xmm1
+607:    2917:	c5 e0 12 d3          	vmovhlps xmm2,xmm3,xmm3
+608:    291b:	c5 e8 58 d3          	vaddps xmm2,xmm2,xmm3
+610:    2924:	c5 e0 58 d2          	vaddps xmm2,xmm3,xmm2
+619:    2948:	c4 c1 78 10 2c 87    	vmovups xmm5,XMMWORD PTR [r15+rax*4]
+620:    294e:	c4 c2 51 b8 04 86    	vfmadd231ps xmm0,xmm5,XMMWORD PTR [r14+rax*4]
+625:    2961:	c5 f8 12 c8          	vmovhlps xmm1,xmm0,xmm0
+626:    2965:	c5 f0 58 c0          	vaddps xmm0,xmm1,xmm0
+628:    296e:	c5 f0 58 c0          	vaddps xmm0,xmm1,xmm0
+629:    2972:	c5 f8 28 d0          	vmovaps xmm2,xmm0
+941:    2e50:	c5 fc 10 24 07       	vmovups ymm4,YMMWORD PTR [rdi+rax*1]
+942:    2e55:	c5 dc 59 04 01       	vmulps ymm0,ymm4,YMMWORD PTR [rcx+rax*1]
+945:    2e61:	c5 f4 58 c8          	vaddps ymm1,ymm1,ymm0
+949:    2e70:	c5 e0 58 c1          	vaddps xmm0,xmm3,xmm1
+951:    2e78:	c5 f0 58 cb          	vaddps xmm1,xmm1,xmm3
+953:    2e7f:	c5 f8 12 d0          	vmovhlps xmm2,xmm0,xmm0
+954:    2e83:	c5 e8 58 d0          	vaddps xmm2,xmm2,xmm0
+956:    2e8c:	c5 f8 58 c2          	vaddps xmm0,xmm0,xmm2
+964:    2ea9:	c5 f8 10 2c 87       	vmovups xmm5,XMMWORD PTR [rdi+rax*4]
+965:    2eae:	c4 e2 51 b8 0c 81    	vfmadd231ps xmm1,xmm5,XMMWORD PTR [rcx+rax*4]
+970:    2ec1:	c5 f0 12 c1          	vmovhlps xmm0,xmm1,xmm1
+971:    2ec5:	c5 f8 58 c9          	vaddps xmm1,xmm0,xmm1
+973:    2ece:	c5 f8 58 c1          	vaddps xmm0,xmm0,xmm1
