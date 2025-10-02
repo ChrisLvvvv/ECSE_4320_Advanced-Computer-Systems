@@ -1,0 +1,7 @@
+mode,stride_B,size_mib_at_min_lat,min_avg_ns_per_access
+rand,64,1,0.727164
+rand,256,1,0.809065
+rand,1024,1,0.843409
+seq,64,4,3.140304
+seq,256,2,2.892148
+seq,1024,1,2.720779

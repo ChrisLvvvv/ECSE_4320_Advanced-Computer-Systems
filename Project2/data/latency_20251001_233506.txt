@@ -1,0 +1,2 @@
+==== Run 1 ====
+Intel(R) Memory Latency Checker - v3.11b

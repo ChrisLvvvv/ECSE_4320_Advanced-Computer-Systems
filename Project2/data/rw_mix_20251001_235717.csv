@@ -1,0 +1,9 @@
+read_pct,size_mib,iters,avg_ns,bw_MBps
+read_pct=100,size_mib=64,iters=4,avg_ns=14.124145,bw_MBps=566.41
+read_pct=70,size_mib=64,iters=4,avg_ns=18.791833,bw_MBps=425.72
+read_pct=50,size_mib=64,iters=4,avg_ns=15.234223,bw_MBps=525.13
+read_pct=0,size_mib=64,iters=4,avg_ns=14.640633,bw_MBps=546.42
+read_pct=100,size_mib=256,iters=4,avg_ns=14.781705,bw_MBps=541.21
+read_pct=70,size_mib=256,iters=4,avg_ns=15.180769,bw_MBps=526.98
+read_pct=50,size_mib=256,iters=4,avg_ns=17.087032,bw_MBps=468.19
+read_pct=0,size_mib=256,iters=4,avg_ns=14.582016,bw_MBps=548.62
